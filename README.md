@@ -201,6 +201,3 @@ Feedstock Maintainers
 * [@ferozco](https://github.com/ferozco/)
 * [@iamdanfox](https://github.com/iamdanfox/)
 
-
-<!-- dummy commit to enable rerendering -->
-
