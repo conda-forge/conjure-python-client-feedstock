@@ -1,4 +1,4 @@
-{% set version = "1.10.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: conjure-python-client
@@ -19,10 +19,7 @@ requirements:
 
   run:
     - python
-    - enum34  # [py<34]
-    - future
     - requests
-    - typing  # [py<=37]
 
 test:
   imports:
