@@ -1,4 +1,4 @@
-{% set version = "1.10.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: conjure-python-client
@@ -6,23 +6,21 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/conjure-python-client/conjure-python-client-{{ version }}.tar.gz
-  sha256: e47365e95583797268de67b198636173fbede9338e5bf50a3235bd4f28fb1b6a
+  sha256: fab6c7d4019e2913d4ee44842b2c75f26837bf5745dcbddda97174e5f318a90c
 
 build:
-  number: 2
+  noarch: python
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python
+    - python >=3.8
     - pip
 
   run:
-    - python
-    - enum34  # [py<34]
-    - future
+    - python >=3.8
     - requests
-    - typing  # [py<=37]
 
 test:
   imports:
