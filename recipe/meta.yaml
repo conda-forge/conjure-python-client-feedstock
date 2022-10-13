@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: conjure-python-client
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/conjure-python-client/conjure-python-client-{{ version }}.tar.gz
-  sha256: f8ea3fb12851173d45c322299c6f761563b3cdb395ac41ae0a0b1cfc6661c584
+  sha256: cc13d5a897bd019b53cbcd3106914ccfd9f14436b212f21df1b8ef9d011df818
 
 build:
   noarch: python

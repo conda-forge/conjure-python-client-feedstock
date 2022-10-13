@@ -144,6 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@ahggns](https://github.com/ahggns/)
-* [@ferozco](https://github.com/ferozco/)
 * [@iamdanfox](https://github.com/iamdanfox/)
 
