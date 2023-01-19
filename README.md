@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@ahggns](https://github.com/ahggns/)
 * [@iamdanfox](https://github.com/iamdanfox/)
+* [@johnhany97](https://github.com/johnhany97/)
 
