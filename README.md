@@ -1,11 +1,11 @@
-About conjure-python-client
-===========================
+About conjure-python-client-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conjure-python-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/conjure-python-client/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conjure-python-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client and JSON encoders for use with generated Conjure clients
 
