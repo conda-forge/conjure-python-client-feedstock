@@ -9,20 +9,19 @@ source:
   sha256: d77dcfa183fb74fa93dce91f3b762cc9dc316c58598112c508a2ea2d873cfcf0
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
 
   run:
-    - python
-    - enum34  # [py<34]
+    - python >=3.6
     - future
     - requests
-    - typing  # [py<=37]
 
 test:
   imports:
