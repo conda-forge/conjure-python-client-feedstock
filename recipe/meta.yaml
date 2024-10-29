@@ -1,4 +1,4 @@
-{% set version = "2.8.0" %}
+{% set version = "2.10.0" %}
 
 package:
   name: conjure-python-client
@@ -35,6 +35,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - iamdanfox
-    - ahggns
     - johnhany97
+    - BenjaminLowry
