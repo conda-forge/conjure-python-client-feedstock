@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/c/conjure-python-client/conjure-python-client-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/c/conjure-python-client/conjure-python-client-{{ version }}.tar.gz
   sha256: 36147eb54cc9f02e10898d24e17c826bfb061be60b03ec843f89e86c7882a43a
 
 build:
